@@ -4,23 +4,39 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
+        
         {
-            "id": "from",
-            "title":"From"
+            "id": "corpus",
+            "title":"Corpus"
+        },
+        {
+            "id": "orderBy",
+            "title":"Order By"
+        },
+        {
+            "id": "pageSize",
+            "title":"Page Size"
+        },
+        {
+            "id": "pageToken",
+            "title":"Page Token"
+        },
+        {
+            "id": "q",
+            "title":"Query"
+        },
+        {
+            "id": "spaces",
+            "title":"Spaces"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "files",
+            "title":"Files"
         }
-      */
     ],
+    "icon": "dex-drive",
     "title": "Google Drive Search Files" /* Required.A display name for the module */
 }
