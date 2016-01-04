@@ -4,7 +4,7 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        
+
         {
             "id": "corpus",
             "title":"Corpus"
