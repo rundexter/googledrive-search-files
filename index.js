@@ -63,7 +63,7 @@ module.exports = {
         // set credential
         google.options({ auth: auth });
         service.files.list(inputs, function (error, data) {
-console.log(data);
+console.log(error);
             if (error)
                 this.fail(error);
              else
