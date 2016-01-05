@@ -61,9 +61,7 @@ module.exports = _.merge({
             /*
              * You should update this section with some test input for testing your module
              */
-            input: {
-                //fileId: '1ZkDSP2Bivl3QZb0UoLSTDKr-xuhM-OyK41AfCjBd6Jc'
-            }
+            input: {}
         }
     }
 }, env);
